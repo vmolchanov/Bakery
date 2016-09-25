@@ -1,0 +1,38 @@
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.to-left {
+	float: left;
+}
+
+.to-right {
+	float: right;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1260px;
+}
+
+/*=======  header  =======*/
+
+header {
+	background: url("../img/header_bg.jpg") no-repeat center center;
+	font-family: 'Alegreya', serif;
+}
+
+header nav li {
+	display: inline;
+}
+
+header nav li a {
+	color: #fff;
+}
