@@ -20,6 +20,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	width: 1260px;
+	/*background-color: red;*/
 }
 
 /*=======  header  =======*/
@@ -27,12 +28,43 @@
 header {
 	background: url("../img/header_bg.jpg") no-repeat center center;
 	font-family: 'Alegreya', serif;
+	color: #fff;
 }
 
-header nav li {
-	display: inline;
+header nav {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+header nav ul {
+	list-style: none;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 header nav li a {
 	color: #fff;
+	display: inline-block;
+}
+
+header nav li a:hover {
+	color: #d0d0d0;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+header .logo-block {
+	margin-top: 20px;
+}
+
+header .social {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+header nav li:nth-child(10) {
+	margin-left: 170px;
 }
