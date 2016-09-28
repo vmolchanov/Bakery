@@ -27,8 +27,11 @@
 
 header {
 	background: url("../img/header_bg.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	font-family: 'Alegreya', serif;
 	color: #fff;
+	padding-bottom: 214px;
 }
 
 header nav {
@@ -67,4 +70,91 @@ header .social {
 
 header nav li:nth-child(10) {
 	margin-left: 170px;
+}
+
+header h1 {
+	font-size: 92px;
+	text-align: center;
+	margin-top: 222px;
+}
+
+header p {
+	color: #ebeaea;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 136px;
+}
+
+header .menu-btn {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px 49px;
+	border: 1px dashed #9e9c93;
+	background-color: rgba(102, 99, 91, 0.7);
+	width: 73px;
+	color: #fff;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 68px;
+}
+
+header .menu-btn:hover {
+	background-color: rgba(90, 87, 79, 0.7);
+}
+
+/*=======  section 2  =======*/
+
+.section2 {
+	position: relative;
+}
+
+.section2>img {
+	position: absolute;
+	top: -49px;
+	left: 45%;
+}
+
+.section2 h2 {
+	font-size: 48px;
+	color: #56534c;
+	text-align: center;
+	margin-top: 105px;
+	margin-left: 73px;
+}
+
+.section2 h6 {
+	font-size: 14px;
+	text-align: center;
+	color: #a47d5e;
+	margin-top: 10px;
+	margin-left: 73px;
+}
+
+.section2 p {
+	font-size: 14px;
+	color: #56534c;
+	text-align: center;
+	margin-top: 70px;
+	margin-left: 73px;
+}
+
+.section2 h4 {
+	font-size: 24px;
+	color: #56534c;
+	text-align: center;
+	margin-top: 45px;
+	margin-left: 73px;
+}
+
+.section2 .to-left img {
+	display: block;
+	margin-left: 73px;
+	margin-top: 49px;
+}
+
+.section2 .to-right img {
+	display: block;
+	margin-top: 140px;
 }
