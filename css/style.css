@@ -1,3 +1,34 @@
+/* font-family: "ProximaNovaRegular"; */
+@font-face {
+	font-family: "ProximaNovaRegular";
+	src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+	src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+	url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+	font-family: "ProximaNovaBold";
+	src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+	src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+	url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ProximaNovaBlack"; */
+@font-face {
+	font-family: "ProximaNovaBlack";
+	src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
+	src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
+	url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
 .clearfix:after {
 	content: "";
 	display: table;
@@ -79,6 +110,7 @@ header h1 {
 }
 
 header p {
+	font-family: "ProximaNovaRegular";
 	color: #ebeaea;
 	font-size: 24px;
 	text-align: center;
@@ -104,19 +136,20 @@ header .menu-btn:hover {
 	background-color: rgba(90, 87, 79, 0.7);
 }
 
-/*=======  section 2  =======*/
+/*=======  art of cakes  =======*/
 
-.section2 {
+.art-of-cakes {
 	position: relative;
 }
 
-.section2>img {
+.art-of-cakes>img {
 	position: absolute;
 	top: -49px;
 	left: 45%;
 }
 
-.section2 h2 {
+.art-of-cakes h2 {
+	font-family: 'Alegreya', serif;
 	font-size: 48px;
 	color: #56534c;
 	text-align: center;
@@ -124,7 +157,8 @@ header .menu-btn:hover {
 	margin-left: 73px;
 }
 
-.section2 h6 {
+.art-of-cakes h6 {
+	font-family: 'Alegreya', serif;
 	font-size: 14px;
 	text-align: center;
 	color: #a47d5e;
@@ -132,7 +166,8 @@ header .menu-btn:hover {
 	margin-left: 73px;
 }
 
-.section2 p {
+.art-of-cakes p {
+	font-family: "ProximaNovaRegular";
 	font-size: 14px;
 	color: #56534c;
 	text-align: center;
@@ -140,7 +175,8 @@ header .menu-btn:hover {
 	margin-left: 73px;
 }
 
-.section2 h4 {
+.art-of-cakes h4 {
+	font-family: 'Alegreya', serif;
 	font-size: 24px;
 	color: #56534c;
 	text-align: center;
@@ -148,13 +184,203 @@ header .menu-btn:hover {
 	margin-left: 73px;
 }
 
-.section2 .to-left img {
+.art-of-cakes .to-left img {
 	display: block;
 	margin-left: 73px;
 	margin-top: 49px;
 }
 
-.section2 .to-right img {
+.art-of-cakes .to-right img {
 	display: block;
 	margin-top: 140px;
 }
+
+/*=======  perfect pancakes  =======*/
+
+.perfect-pancakes {
+	background: url("../img/perf_pan_bg.jpg") no-repeat;
+}
+
+.perfect-pancakes .time {
+	background: url("../img/time_bg.jpg") no-repeat;;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 95px;
+	left: 1030px;
+}
+
+.perfect-pancakes .time p:first-child {
+	font-family: 'Alegreya', serif;
+	color: #a47d5e;
+	font-size: 14px;
+	padding-top: 34px;
+}
+
+.perfect-pancakes .time p:nth-child(2) {
+	font-family: 'Alegreya', serif;
+	font-size: 80px;
+	color: #dfc691;
+	font-weight: bold;
+	padding-left: 51px;
+	padding-right: 53px;
+}
+
+.perfect-pancakes .time p:last-child {
+	font-family: 'Alegreya', serif;
+	color: #979285;
+	padding-bottom: 34px;
+}
+
+.perfect-pancakes>div {
+	position: relative;
+}
+
+.perfect-pancakes .decorative-block {
+	position: absolute;
+	left: 560px;
+	top: 390px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 25px;
+	background-color: #fff;
+}
+
+.perfect-pancakes .dec-ext-block {
+	display: inline-block;
+	width: 7px;
+	height: 16px;
+	border-left: 1px solid #d8bba3;
+	border-right: 1px solid #d8bba3;
+	margin-top: 30%;
+}
+
+.perfect-pancakes .dec-in-block {
+	width: 3px;
+	height: 16px;
+	border-right: 1px solid #d8bba3;
+}
+
+.perfect-pancakes .menu {
+	padding-top: 140px;
+	padding-bottom: 107px;
+}
+
+.perfect-pancakes .menu .content {
+	background: #fff url("../img/mill.jpg") no-repeat right bottom;
+	width: 545px;
+}
+
+.perfect-pancakes .menu .content .wrapper {
+	margin-left: 63px;
+	margin-top: 83px;
+	margin-right: 86px;
+}
+
+.perfect-pancakes .menu .content h2 {
+	font-family: 'Alegreya', serif;
+	font-size: 48px;
+	color: #56534c;
+}
+
+.perfect-pancakes .menu .content h6 {
+	font-family: 'Alegreya', serif;
+	font-size: 14px;
+	color: #a47d5e;
+	margin-top: 10px;
+	margin-bottom: 70px;
+}
+
+.perfect-pancakes .menu .content p {
+	font-family: "ProximaNovaRegular";
+	color: #56534c;
+	font-size: 14px;
+}
+
+.perfect-pancakes .slider {
+	position: relative;
+	display: inline-block;
+	margin-left: 108px;
+	margin-top: 105px;
+	margin-bottom: 29px;
+}
+
+.perfect-pancakes .slider .slider-wrap {
+	width: 330px;
+	height: 92px;
+	overflow: hidden;
+}
+
+.perfect-pancakes .slider .slider-list {
+	width: 2000px;
+	position: relative;
+	left: 0;
+	list-style: none;
+}
+
+.perfect-pancakes .slider .slide {
+	float: left;
+	margin-right: 30px;
+}
+
+.perfect-pancakes .slider .slide-content {
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	overflow: hidden;
+}
+
+.perfect-pancakes .slider .active:last-child {
+	margin-right: 0;
+}
+
+.perfect-pancakes .slider .slider-controls {
+	vertical-align: middle;
+}
+
+.perfect-pancakes .slider .btn {
+	display: block;
+	position: absolute;
+	font-size: 22px;
+	color: #e5dcd4;
+	width: 32px;
+	height: 32px;
+	border: 2px solid #e5dcd4;
+	border-radius: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.perfect-pancakes .slider .btn:hover {
+	color: #e5dcd4;
+	border-color: #e5dcd4;
+}
+
+.perfect-pancakes .slider .prev-btn {
+	left: -55px;
+	top: 28px;
+}
+
+.perfect-pancakes .slider .next-btn {
+	left: 350px;
+	top: 28px;
+	color: #d8bba3;
+	border-color: #d8bba3;
+}
+
+.perfect-pancakes .slider .next-btn:hover {
+	color: #56534c;
+	border-color: #56534c;
+}
+
+/*
+main color:  d8bba3;
+lock color:  e5dcd4;
+hover color: 56534c;
+*/
+
+
+
+
