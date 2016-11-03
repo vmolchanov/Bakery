@@ -28,6 +28,16 @@
 	font-style: normal;
 	font-weight: normal;
 }
+/* font-family: "Scriptina"; */
+@font-face {
+	font-family: "Scriptina";
+	src: url("../fonts/Scriptina/scriptina.eot");
+	src: url("../fonts/Scriptina/scriptina.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Scriptina/scriptina.woff") format("woff"),
+	url("../fonts/Scriptina/scriptina.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
 
 .clearfix:after {
 	content: "";
@@ -60,7 +70,7 @@ header {
 	background: url("../img/header_bg.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	font-family: 'Alegreya', serif;
+	font-family: "Alegreya", serif;
 	color: #fff;
 	padding-bottom: 214px;
 }
@@ -140,6 +150,7 @@ header .menu-btn:hover {
 
 .art-of-cakes {
 	position: relative;
+	background-image: url("../img/art_of_cakes_bg.jpg");
 }
 
 .art-of-cakes>img {
@@ -149,7 +160,7 @@ header .menu-btn:hover {
 }
 
 .art-of-cakes h2 {
-	font-family: 'Alegreya', serif;
+	font-family: "Alegreya", serif;
 	font-size: 48px;
 	color: #56534c;
 	text-align: center;
@@ -158,7 +169,7 @@ header .menu-btn:hover {
 }
 
 .art-of-cakes h6 {
-	font-family: 'Alegreya', serif;
+	font-family: "Alegreya", serif;
 	font-size: 14px;
 	text-align: center;
 	color: #a47d5e;
@@ -166,7 +177,7 @@ header .menu-btn:hover {
 	margin-left: 73px;
 }
 
-.art-of-cakes p {
+.art-of-cakes .description {
 	font-family: "ProximaNovaRegular";
 	font-size: 14px;
 	color: #56534c;
@@ -176,7 +187,7 @@ header .menu-btn:hover {
 }
 
 .art-of-cakes h4 {
-	font-family: 'Alegreya', serif;
+	font-family: "Alegreya", serif;
 	font-size: 24px;
 	color: #56534c;
 	text-align: center;
@@ -193,6 +204,69 @@ header .menu-btn:hover {
 .art-of-cakes .to-right img {
 	display: block;
 	margin-top: 140px;
+}
+
+.art-of-cakes .chef-block {
+	text-align: center;
+	margin-top: 44px;
+}
+
+.art-of-cakes .chef-block .wrapper {
+	position: relative;
+}
+
+.art-of-cakes .chef-block .wrapper .chef-name,
+.art-of-cakes .chef-block .wrapper .avatar {
+	display: inline-block;
+}
+
+.art-of-cakes .chef-block .wrapper .chef-name {
+	font-family: "Alegreya", serif;
+	font-size: 24px;
+	color: #56534c;
+	border-top: 1px solid #d7d5ca;
+	border-bottom: 1px solid #d7d5ca;
+	padding: 23px 22px 20px 22px;
+}
+
+.art-of-cakes .chef-block .wrapper .chef-name:first-child {
+	margin-left: 90px;
+}
+
+.art-of-cakes .chef-block .wrapper .chef-name:last-child {
+	margin-left: 120px;
+}
+
+.art-of-cakes .chef-block .wrapper .avatar {
+	width: 100px;
+	height: 100px;
+	border: 5px solid #fff;
+	border-radius: 50px;
+	overflow: hidden;
+	background: url("../img/chef_avatar.jpg") no-repeat center center;
+	position: absolute;
+	left: 215px;
+	top: -21px;
+}
+
+.art-of-cakes .chef-block blockquote {
+	font-family: "Scriptina";
+	font-size: 24px;
+	margin-top: -50px;
+	margin-left: 60px;
+}
+
+.art-of-cakes .chef-block .quote1 {
+	font-size: 70px;
+	color: #b6b5b2;
+	margin-top: 20px;
+	margin-left: -260px;
+}
+
+.art-of-cakes .chef-block .quote2 {
+	font-size: 70px;
+	color: #b6b5b2;
+	margin-left: 445px;
 }
 
 /*=======  perfect pancakes  =======*/
@@ -212,14 +286,14 @@ header .menu-btn:hover {
 }
 
 .perfect-pancakes .time p:first-child {
-	font-family: 'Alegreya', serif;
+	font-family: "Alegreya", serif;
 	color: #a47d5e;
 	font-size: 14px;
 	padding-top: 34px;
 }
 
 .perfect-pancakes .time p:nth-child(2) {
-	font-family: 'Alegreya', serif;
+	font-family: "Alegreya", serif;
 	font-size: 80px;
 	color: #dfc691;
 	font-weight: bold;
@@ -280,13 +354,13 @@ header .menu-btn:hover {
 }
 
 .perfect-pancakes .menu .content h2 {
-	font-family: 'Alegreya', serif;
+	font-family: "Alegreya", serif;
 	font-size: 48px;
 	color: #56534c;
 }
 
 .perfect-pancakes .menu .content h6 {
-	font-family: 'Alegreya', serif;
+	font-family: "Alegreya", serif;
 	font-size: 14px;
 	color: #a47d5e;
 	margin-top: 10px;
@@ -303,7 +377,7 @@ header .menu-btn:hover {
 	position: relative;
 	display: inline-block;
 	margin-left: 108px;
-	margin-top: 105px;
+	margin-top: 100px;
 	margin-bottom: 29px;
 }
 
@@ -375,11 +449,85 @@ header .menu-btn:hover {
 	border-color: #56534c;
 }
 
-/*
-main color:  d8bba3;
-lock color:  e5dcd4;
-hover color: 56534c;
-*/
+/*=======  breakfast  =======*/
+
+.breakfast {
+	background: url("../img/breakfast_bg.jpg") no-repeat;
+}
+
+.breakfast .prices {
+	padding-bottom: 89px;
+	margin-left: 340px; /*253*/
+}
+
+.breakfast .prices h2 {
+	font-family: "Alegreya", serif;
+	font-size: 48px;
+	color: #fff;
+	margin-top: 89px;
+}
+
+.breakfast .prices h6 {
+	font-family: "Alegreya", serif;
+	font-size: 14px;
+	color: #c2a090;
+	margin-bottom: 68px;
+}
+
+.breakfast .prices h4 {
+	font-family: "Alegreya", serif;
+	color: #fff;
+	font-size: 24px;
+}
+
+.breakfast .prices .price {
+	color: #dfc691;
+	font-size: 24px;
+}
+
+.breakfast .prices div p {
+	font-family: "ProximaNovaRegular";
+	color: #c2beba;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.breakfast .prices img {
+	display: block;
+	margin-top: 14px;
+	margin-bottom: 12px;
+}
+
+.breakfast .menu {
+	margin-top: 89px;
+}
+
+.breakfast .menu .main-block {
+	background-color: #f3f1e9;
+	padding-top: 10px;
+}
+
+.breakfast .menu .main-block .wrapper {
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px dashed #9e9c93;
+	border-bottom: none;
+}
+
+.breakfast .menu .main-block h2 {
+	font-family: "Alegreya", serif;
+	font-size: 48px;
+	color: #56534c;
+}
+
+
+
+
+
+
+
+
 
 
 
