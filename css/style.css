@@ -513,15 +513,50 @@ header .menu-btn:hover {
 	margin-right: 10px;
 	border: 1px dashed #9e9c93;
 	border-bottom: none;
+	padding: 43px 25px 36px 25px;
 }
 
 .breakfast .menu .main-block h2 {
 	font-family: "Alegreya", serif;
 	font-size: 48px;
 	color: #56534c;
+	text-align: center;
 }
 
+.breakfast .menu .main-block .annotation {
+	font-family: "ProximaNovaRegular";
+	font-size: 14px;
+	color: #56534c;
+	margin-top: 44px;
+	text-align: center;
+}
 
+.breakfast .menu .main-block .head p:first-child {
+	margin-left: 68px;
+}
+
+.breakfast .menu .main-block .head p:last-child {
+	margin-right: 70px;
+}
+
+.breakfast .menu .main-block .btn {
+	text-align: center;
+	padding: 18px 0;
+	border: 1px solid #9e9c93;
+	width: 188px;
+	margin: 55px auto 0 auto;
+}
+
+.breakfast .menu .main-block .btn a {
+	color: #a47d5e;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.breakfast .menu .main-block .btn:hover {
+	cursor: pointer;
+	background-color: #ebe7d9;
+}
 
 
 
