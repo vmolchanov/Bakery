@@ -16,8 +16,6 @@ $(function() {
 		var slideMargin = parseInt(items.css("margin-right"));
 		var slideWidth = parseInt(items.css("width"));
 
-		// console.log(nextSlide);
-
 		if ($(this).hasClass("next-btn")) {
 			if (nextSlide.length) {
 				var shiftOfItem = slideWidth + slideMargin;
@@ -105,6 +103,6 @@ $(function() {
 
 		list.animate({
 			"left": "-=" + reqPos + "px"
-		}, 1000);
+		}, 600);
 	});
 });

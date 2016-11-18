@@ -86,8 +86,10 @@ header nav ul {
 }
 
 header nav li a {
-	color: #fff;
 	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 2px;
 }
 
 header nav li a:hover {
@@ -101,6 +103,9 @@ header nav ul li {
 }
 
 header .logo-block {
+	font-family: "Scriptina";
+	font-size: 30px;
+	letter-spacing: 8px;
 	margin-top: 20px;
 }
 
@@ -114,7 +119,9 @@ header nav li:nth-child(10) {
 }
 
 header h1 {
+	font-family: "Playfair Display", serif;
 	font-size: 92px;
+	letter-spacing: 8px;
 	text-align: center;
 	margin-top: 222px;
 }
@@ -129,17 +136,18 @@ header p {
 
 header .menu-btn {
 	display: block;
+	background-color: rgba(102, 99, 91, 0.7);
+	letter-spacing: 3px;
 	font-size: 14px;
 	font-weight: bold;
-	padding: 20px 49px;
-	border: 1px dashed #9e9c93;
-	background-color: rgba(102, 99, 91, 0.7);
-	width: 73px;
 	color: #fff;
 	text-align: center;
+	width: 95px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 68px;
+	padding: 20px 49px;
+	border: 1px dashed #9e9c93;
 }
 
 header .menu-btn:hover {
@@ -149,8 +157,8 @@ header .menu-btn:hover {
 /*=======  art of cakes  =======*/
 
 .art-of-cakes {
-	position: relative;
 	background-image: url("../img/art_of_cakes_bg.jpg");
+	position: relative;
 }
 
 .art-of-cakes>img {
@@ -171,8 +179,10 @@ header .menu-btn:hover {
 .art-of-cakes h6 {
 	font-family: "Alegreya", serif;
 	font-size: 14px;
+	font-weight: bold;
 	text-align: center;
 	color: #a47d5e;
+	letter-spacing: 1px;
 	margin-top: 10px;
 	margin-left: 73px;
 }
@@ -181,6 +191,7 @@ header .menu-btn:hover {
 	font-family: "ProximaNovaRegular";
 	font-size: 14px;
 	color: #56534c;
+	letter-spacing: 1px;
 	text-align: center;
 	margin-top: 70px;
 	margin-left: 73px;
@@ -189,6 +200,7 @@ header .menu-btn:hover {
 .art-of-cakes h4 {
 	font-family: "Alegreya", serif;
 	font-size: 24px;
+	font-weight: bold;
 	color: #56534c;
 	text-align: center;
 	margin-top: 45px;
@@ -224,9 +236,9 @@ header .menu-btn:hover {
 	font-family: "Alegreya", serif;
 	font-size: 24px;
 	color: #56534c;
+	padding: 23px 22px 20px 22px;
 	border-top: 1px solid #d7d5ca;
 	border-bottom: 1px solid #d7d5ca;
-	padding: 23px 22px 20px 22px;
 }
 
 .art-of-cakes .chef-block .wrapper .chef-name:first-child {
@@ -238,20 +250,21 @@ header .menu-btn:hover {
 }
 
 .art-of-cakes .chef-block .wrapper .avatar {
+	background: url("../img/chef_avatar.jpg") no-repeat center center;
+	position: absolute;
+	left: 249px;
+	top: -21px;
 	width: 100px;
 	height: 100px;
 	border: 5px solid #fff;
 	border-radius: 50px;
 	overflow: hidden;
-	background: url("../img/chef_avatar.jpg") no-repeat center center;
-	position: absolute;
-	left: 215px;
-	top: -21px;
 }
 
 .art-of-cakes .chef-block blockquote {
 	font-family: "Scriptina";
 	font-size: 24px;
+	color: #a47d5e;
 	margin-top: -50px;
 	margin-left: 60px;
 }
@@ -278,23 +291,26 @@ header .menu-btn:hover {
 .perfect-pancakes .time {
 	background: url("../img/time_bg.jpg") no-repeat;;
 	text-align: center;
-	width: 200px;
-	height: 200px;
 	position: absolute;
 	top: 95px;
 	left: 1030px;
+	width: 200px;
+	height: 200px;
+	-webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .perfect-pancakes .time p:first-child {
 	font-family: "Alegreya", serif;
 	color: #a47d5e;
-	font-size: 14px;
+	font-size: 18px;
+	font-weight: bold;
 	padding-top: 34px;
 }
 
 .perfect-pancakes .time p:nth-child(2) {
 	font-family: "Alegreya", serif;
-	font-size: 80px;
+	font-size: 92px;
 	color: #dfc691;
 	font-weight: bold;
 	padding-left: 51px;
@@ -304,6 +320,8 @@ header .menu-btn:hover {
 .perfect-pancakes .time p:last-child {
 	font-family: 'Alegreya', serif;
 	color: #979285;
+	font-size: 18px;
+	font-weight: bold;
 	padding-bottom: 34px;
 }
 
@@ -312,23 +330,23 @@ header .menu-btn:hover {
 }
 
 .perfect-pancakes .decorative-block {
+	background-color: #fff;
+	text-align: center;
 	position: absolute;
 	left: 560px;
 	top: 390px;
 	width: 50px;
 	height: 50px;
-	text-align: center;
 	border-radius: 25px;
-	background-color: #fff;
 }
 
 .perfect-pancakes .dec-ext-block {
 	display: inline-block;
 	width: 7px;
 	height: 16px;
+	margin-top: 30%;
 	border-left: 1px solid #d8bba3;
 	border-right: 1px solid #d8bba3;
-	margin-top: 30%;
 }
 
 .perfect-pancakes .dec-in-block {
@@ -339,7 +357,7 @@ header .menu-btn:hover {
 
 .perfect-pancakes .menu {
 	padding-top: 140px;
-	padding-bottom: 107px;
+	padding-bottom: 103px;
 }
 
 .perfect-pancakes .menu .content {
@@ -371,11 +389,12 @@ header .menu-btn:hover {
 	font-family: "ProximaNovaRegular";
 	color: #56534c;
 	font-size: 14px;
+	letter-spacing: 1px;
 }
 
 .perfect-pancakes .slider {
-	position: relative;
 	display: inline-block;
+	position: relative;
 	margin-left: 108px;
 	margin-top: 100px;
 	margin-bottom: 29px;
@@ -388,9 +407,9 @@ header .menu-btn:hover {
 }
 
 .perfect-pancakes .slider .slider-list {
-	width: 2000px;
 	position: relative;
 	left: 0;
+	width: 2000px;
 	list-style: none;
 }
 
@@ -416,14 +435,14 @@ header .menu-btn:hover {
 
 .perfect-pancakes .slider .btn {
 	display: block;
-	position: absolute;
 	font-size: 22px;
 	color: #e5dcd4;
+	text-align: center;
+	position: absolute;
 	width: 32px;
 	height: 32px;
 	border: 2px solid #e5dcd4;
 	border-radius: 18px;
-	text-align: center;
 	cursor: pointer;
 }
 
@@ -438,9 +457,9 @@ header .menu-btn:hover {
 }
 
 .perfect-pancakes .slider .next-btn {
+	color: #d8bba3;
 	left: 350px;
 	top: 28px;
-	color: #d8bba3;
 	border-color: #d8bba3;
 }
 
@@ -456,47 +475,55 @@ header .menu-btn:hover {
 }
 
 .breakfast .prices {
-	padding-bottom: 89px;
-	margin-left: 340px; /*253*/
+	text-align: center;
+	padding-bottom: 73px;
+	margin-left: 283px; /*253*/
+	margin-top: 10px;
 }
 
 .breakfast .prices h2 {
-	font-family: "Alegreya", serif;
-	font-size: 48px;
+	font-family: "Myriad Pro", serif;
+	font-size: 60px;
+	font-weight: normal;
+	letter-spacing: 3px;
+	line-height: 0.75;
 	color: #fff;
 	margin-top: 89px;
 }
 
 .breakfast .prices h6 {
 	font-family: "Alegreya", serif;
-	font-size: 14px;
+	font-size: 18px;
 	color: #c2a090;
-	margin-bottom: 68px;
+	margin-bottom: 62px;
 }
 
 .breakfast .prices h4 {
 	font-family: "Alegreya", serif;
 	color: #fff;
-	font-size: 24px;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.breakfast .prices .sep-block {
+	margin-top: 13px;
 }
 
 .breakfast .prices .price {
+	font-family: "Alegreya", serif;
 	color: #dfc691;
-	font-size: 24px;
+	font-size: 36px;
+	letter-spacing: 1px;
+	line-height: 1;
 }
 
 .breakfast .prices div p {
 	font-family: "ProximaNovaRegular";
 	color: #c2beba;
-	font-size: 14px;
-	margin-top: 15px;
-	margin-bottom: 30px;
-}
-
-.breakfast .prices img {
-	display: block;
-	margin-top: 14px;
-	margin-bottom: 12px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .breakfast .menu {
@@ -511,9 +538,9 @@ header .menu-btn:hover {
 .breakfast .menu .main-block .wrapper {
 	margin-left: 10px;
 	margin-right: 10px;
+	padding: 43px 25px 36px 25px;
 	border: 1px dashed #9e9c93;
 	border-bottom: none;
-	padding: 43px 25px 36px 25px;
 }
 
 .breakfast .menu .main-block h2 {
@@ -527,8 +554,14 @@ header .menu-btn:hover {
 	font-family: "ProximaNovaRegular";
 	font-size: 14px;
 	color: #56534c;
-	margin-top: 44px;
 	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 44px;
+}
+
+.breakfast .menu .main-block .head {
+	font-family: "Alegreya", serif;
+	font-size: 14px;
 }
 
 .breakfast .menu .main-block .head p:first-child {
@@ -540,30 +573,193 @@ header .menu-btn:hover {
 }
 
 .breakfast .menu .main-block .btn {
+	font-family: "Alegreya", serif;
 	text-align: center;
-	padding: 18px 0;
-	border: 1px solid #9e9c93;
 	width: 188px;
 	margin: 55px auto 0 auto;
+	padding: 18px 0;
+	border: 1px solid #9e9c93;
 }
 
 .breakfast .menu .main-block .btn a {
 	color: #a47d5e;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
 .breakfast .menu .main-block .btn:hover {
-	cursor: pointer;
 	background-color: #ebe7d9;
+	cursor: pointer;
 }
 
+.breakfast .menu .main-block .image {
+	position: relative;
+	text-align: center;
+}
 
+.breakfast .menu .main-block .image img:last-child {
+	position: absolute;
+	left: 161px;
+	top: 8px;
+}
 
+.breakfast .triangle-topright {
+	width: 0;
+	height: 0;
+	border-top: 30px solid #fafafa; 
+	border-left: 30px solid transparent;
+	-webkit-box-shadow: 2px -2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px -2px 1px rgba(0, 0, 0, 0.2);
+}
 
+.breakfast .empty-block {
+	background-color: #f3f1e9;
+	height: 30px;
+	width: 410px;
+}
 
+.breakfast .empty-block .wrapper {
+	height: 20px !important;
+	margin-left: 0 !important;
+	padding: 0 !important;
+	border-bottom: 1px dashed #9e9c93 !important;
+	border-right: 1px dashed #9e9c93;
+	border-left: none !important;
+	border-top: none !important;
+}
 
+/*=======  recipe  =======*/
 
+.recipe {
+	background-color: #f3f1e9;
+}
 
+.recipe h2 {
+	background: url("../img/village.svg") no-repeat center center;
+	-webkit-background-size: 695px 135px;
+	background-size: 695px 135px;
+	font-family: "Alegreya", serif;
+	font-size: 48px;
+	text-align: center;
+	padding-top: 78px;
+}
+
+.recipe h6 {
+	font-family: "Alegreya", serif;
+	font-size: 14px;
+	text-align: center;
+	color: #c2a090;
+}
+
+.recipe .ingredients-list {
+	list-style: none;
+	text-align: center;
+}
+
+.ingredients-list .image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ingredients-list h3 {
+	font-family: "Alegreya", serif;
+	font-size: 30px;
+	color: #a47d5e;
+	margin-top: 22px;
+}
+
+.ingredients-list p {
+	font-family: "ProximaNovaRegular";
+	font-size: 14px;
+	color: #56534c;
+	letter-spacing: 1px;
+	margin-top: 23px;
+	margin-bottom: 57px;
+}
+
+.recipe .sandwich-block {
+	position: relative;
+	margin-top: 89px;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.recipe .main-image {
+	background-color: #fff;
+	padding: 10px;
+}
+
+.recipe .time {
+	font-family: "Alegreya", serif;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+
+.recipe .time p:first-child {
+	color: #a47d5e;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 34px;
+}
+
+.recipe .time p:nth-child(2) {
+	color: #56534c;
+	font-size: 60px;
+	font-weight: bold;
+	padding-left: 51px;
+	padding-right: 53px;
+}
+
+.recipe .time p:last-child {
+	color: #979285;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 34px;
+}
+
+.recipe .all-time {
+	background: url("../img/time_bg.jpg") no-repeat;
+	right: 10px;
+	top: 384px;
+}
+
+.recipe .all-time p:first-child {
+	color: #a47d5e;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 34px;
+}
+
+.recipe .all-time p:nth-child(2) {
+	font-size: 92px;
+	color: #dfc691;
+	font-weight: bold;
+	padding-left: 51px;
+	padding-right: 53px;
+}
+
+.recipe .all-time p:last-child {
+	color: #979285;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 34px;
+}
+
+.recipe .time:first-child {
+	top: -18px;
+	right: 10px;
+}
+
+.recipe .time:nth-child(2) {
+	top: 184px;
+	right: 10px;
+}
 
 

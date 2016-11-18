@@ -7,15 +7,16 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Fonts -->
+	<!-- Alegreya -->
 	<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+	<!-- Playfair Display -->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<nav>
 			<div class="container clearfix">
-				<div class="logo-block to-left">
-					<img src="img/logo.png" alt="logo">
-				</div>
+				<div class="logo-block to-left">Gustoso</div>
 				<ul class="to-right">
 					<li><a href="#"><span class="upper">welcome</span></a></li>
 					<li>~</li>
@@ -28,17 +29,17 @@
 					<li><a href="#"><span class="upper">contact</span></a></li>
 					<li class="social">
 						<a href="https://twitter.com" target="_blank">
-							<img src="img/twitter.png" alt="twitter">
+							<img src="img/twitter.svg" alt="twitter">
 						</a>
 					</li>
 					<li class="social">
 						<a href="https://www.facebook.com" target="_blank">
-							<img src="img/facebook.png" alt="facebook">
+							<img src="img/facebook.svg" alt="facebook">
 						</a>
 					</li>
 					<li class="social">
 						<a href="https://www.instagram.com" target="_blank">
-							<img src="img/instagram.png" alt="instagram">
+							<img src="img/instagram.svg" alt="instagram">
 						</a>
 					</li>
 				</ul>
@@ -167,13 +168,17 @@
 					<p>Duis ut tortor, et risus, vulputate pretium</p>
 				</div>
 				<p class="price">$12.49</p>
-				<img src="img/price_separator.png" alt="price-separator">
+				<div class="sep-block">
+					<img src="img/price_separator.svg" alt="price-separator" width="90" height="27">
+				</div>
 				<div>
 					<h4>Toast & Jam</h4>
 					<p>Suspendisse, tempus, nterdum</p>
 				</div>
 				<p class="price">$4.90</p>
-				<img src="img/price_separator.png" alt="price-separator">
+				<div class="sep-block">
+					<img src="img/price_separator.svg" alt="price-separator" width="90" height="27">
+				</div>
 				<div>
 					<h4>Muffins</h4>
 					<p>Fusce eget dui sodales est</p>
@@ -188,7 +193,10 @@
 							<p class="to-left"><span class="upper">est.</span></p>
 							<p class="to-right">1893</p>
 						</div>
-						<img src="img/your_morning.png">
+						<div class="image">
+							<img src="img/your_morning.svg">
+							<img src="img/bagel.svg" alt="" width="45" height="45">
+						</div>
 						<h2>
 							Your morning<br>
 							Escape with Flair
@@ -202,52 +210,76 @@
 							<a href="#"><span class="upper">read</span></a>
 						</div>
 					</div>
-				</div>
-				<div class="wrapper clearfix">
 					<div class="triangle-topright to-left"></div>
-					<div class="empty-block to-left"></div>
+					<div class="empty-block to-left">
+						<div class="wrapper"></div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section>
-		<h3 class="container">The Jibarito sandwich</h3>
+	<section class="recipe">
+		<h2 class="container">The Jibarito sandwich</h2>
 		<h6 class="container">
 			<span class="upper">the best sandwich you’ve ever tasted!</span>
 		</h6>
 
 		<div class="container clearfix">
 			<div class="to-left">
-				<div>
-					<img src="#" alt="food-img">
-					<h4>Class aptent</h4>
-					<p>
-						Quot alienum persecuti ut eam, nam ad<br>
-						atqui primis nusquam.
-					</p>
-				</div>
-				<div>
-					<img src="#" alt="food-img">
-					<h4>Nulla eget</h4>
-					<p>
-						Nullam dictum felis eu pede mollis<br>
-						pretium Integer tincidunt.
-					</p>
-				</div>
-				<div>
-					<img src="#" alt="food-img">
-					<h4>Sed nibh purus</h4>
-					<p>
-						Aenean eleifend tellus leo ligula,<br>
-						porttitor eu, consequat vitae.
-					</p>
-				</div>
+				<ul class="ingredients-list">
+					<li>
+						<div class="image">
+							<img src="img/millet.jpg" alt="" width="100" height="100">
+						</div>
+						<h3>Class aptent</h3>
+						<p>
+							Quot alienum persecuti ut eam, nam ad<br>
+							atqui primis nusquam.
+						</p>
+					</li>
+					<li>
+						<div class="image">
+							<img src="img/eggs.jpg" alt="" width="100" height="100">
+						</div>
+						<h3>Nulla eget</h3>
+						<p>
+							Nullam dictum felis eu pede mollis<br>
+							pretium Integer tincidunt.
+						</p>
+					</li>
+					<li>
+						<div class="image">
+							<img src="img/cheese.jpg" alt="" width="100" height="100">
+						</div>
+						<h3>Sed nibh purus</h3>
+						<p>
+							Aenean eleifend tellus leo ligula,<br>
+							porttitor eu, consequat vitae.
+						</p>
+					</li>
+				</ul>
 			</div>
 
-			<div class="to-right">
-				<!-- maybe -->
-				<img src="#" alt="sandwich">
+			<div class="sandwich-block to-right">
+				<div class="time">
+					<p><span class="upper">prep</span></p>
+					<p>15</p>
+					<p>mins</p>
+				</div>
+				<div class="time">
+					<p><span class="upper">cook</span></p>
+					<p>35</p>
+					<p>mins</p>
+				</div>
+				<div class="time all-time">
+					<p><span class="upper">ready in</span></p>
+					<p>50</p>
+					<p>mins</p>
+				</div>
+				<div class="main-image">
+					<img src="img/sandwich.jpg" alt="sandwich" width="830" height="540">
+				</div>
 			</div>
 		</div>
 	</section>
