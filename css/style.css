@@ -766,6 +766,26 @@ header .menu-btn:hover {
 	right: 10px;
 }
 
+.recipe .full-recipe-btn {
+	background-color: #fff;
+	position: absolute;
+	top: 515px;
+	left: -23px;
+	padding: 23px 29px;
+	border: 1px dashed #dfc691;
+}
+
+.recipe .full-recipe-btn a {
+	font-family: "Alegreya", serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #dfc691;
+}
+
+.recipe .full-recipe-btn:hover {
+	background-color: #f9f6f6;
+}
+
 /*=======  footer  =======*/
 
 footer {
